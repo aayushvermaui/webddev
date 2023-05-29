@@ -1,0 +1,40 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+#hero-section {
+    height: 100%;
+    background-image: url("https://e0.pxfuel.com/wallpapers/914/372/desktop-wallpaper-developer-for-for-programmers-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.hero-text{
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+.greetings{
+    font-size: 36px;
+    text-align: left;
+}
+.greetings .name{
+    font-size: 28px;
+}
+.designation{
+    font-size: 40px;
+    margin-top: 4px;
+    text-transform: uppercase;
+}
